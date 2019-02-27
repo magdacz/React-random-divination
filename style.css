@@ -1,0 +1,52 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2019/01/19/21/09/crystal-ball-photography-3942594_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    max-width: 500px;
+    padding: 20px 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+button {
+    max-width: 250px;
+    font-size: 16px;
+    padding: 10px 15px;
+    background: #fff;
+    color: #112237;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+input {
+    max-width: 600px;
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    border: 1px solid #1F51FB;
+}
+
